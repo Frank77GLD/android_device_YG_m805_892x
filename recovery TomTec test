@@ -1,0 +1,31 @@
+vold.fstab tomtec 7:
+# External NAND Storage
+dev_mount sdcard /mnt/sdcard auto /devices/virtual/block/ndda
+
+> # External SD card
+dev_mount ext_sd /mnt/ext_sd auto /devices/platform/tcc-sdhc
+Gio vold.fstab:
+dev mount sdcard /mnt/sdcard auto /devives/platform/msn_sdcc.1/mmc_host
+verder niks.
+
+mount:
+sdcard:
+/dev/block/vold/179:0 /mnt/ext_sd vfat ...etc..
+/dev/block/vold/240:0 /mnt/sdcard vfat ... intern
+Gio mount:
+/dev/block/vold/179:1 /mnt/sdcard vfat In dit geval de externe sd kaart.
+
+Some other info i found..:
+/dev/block/platform/tcc-sdhc0.0/mmcblk0 (ext_sd)
+> /dev/block/mmcblk0 extern
+
+Samsung GIO recovery.fstab:
+/sdcard	        vfat	        /dev/block/mmcblk0p1	/dev/block/mmcblk0
+/sd-ext         ext4            /dev/block/mmcblk0p2
+
+Tomtec recovery.fstab:
+Extern (mmcblk0 (ext_sd) /sdcard		vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0
+Intern: /nand		vfat		/dev/block/ndda1	/dev/block/ndda
+
+word:
+?

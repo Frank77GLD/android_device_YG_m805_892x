@@ -1,0 +1,14 @@
+This make files are only to build a recovery.
+Download this repo: git clone git://github.com/Frank77GLD/Telechip_tcc892xRecovery.git
+Build guide..
+http://forum.xda-developers.com/showthread.php?t=1935162
+
+Not working in this cwm recovery:
+mount en storage. mount USB storage not working jet.
+key test
+choose backup format
+
+tips?
+
+links?
+
