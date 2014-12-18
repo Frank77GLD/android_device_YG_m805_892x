@@ -21,7 +21,6 @@
 # lines, full and toro, hence its name.
 #
 
-# Live Wallpapers
 PRODUCT_PROPERTY_OVERRIDES := \
         net.dns1=8.8.8.8 \
         net.dns2=8.8.4.4
@@ -33,8 +32,16 @@ $(call inherit-product, device/YG/m805_892x/device_m805_892x.mk)
 $(call inherit-product-if-exists, device/YG/m805_892x/m805_892x-vendor-blobs.mk)
 #$(call inherit-product, device/YG/m805_892x/tcc892x.mk)
 
+#test 12 dec:
+$(call inherit-product, device/YG/m805_892x/common/common.mk)
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_m805_892x
+#PRODUCT_NAME := full_m805_892x
+PRODUCT_NAME := full_m805_892x_evm
 PRODUCT_DEVICE := m805_892x
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := A777
+
+#Test 15 dec:
+PRODUCT_COPY_FILES += \
+device/YG/m805_892x/prebuild/bootanimation.zip:system/media/bootanimation.zip
