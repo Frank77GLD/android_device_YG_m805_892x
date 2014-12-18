@@ -22,62 +22,45 @@ PRODUCT_COPY_FILES += \
   device/YG/m805_892x/proprietary/key_921600.psr:system/key_921600.psr \
   device/YG/m805_892x/proprietary/key_3000000.psr:system/key_3000000.psr \
   device/YG/m805_892x/proprietary/ts.conf:system/ts.conf \
-  device/YG/m805_892x/proprietary/app/A777_FactoryTest.apk:system/app/A777_FactoryTest.apk \
-  device/YG/m805_892x/proprietary/app/Vending.apk:system/app/Vending.apk \
-  device/YG/m805_892x/proprietary/bin/bugmailer.sh:system/bin/bugmailer.sh \
   device/YG/m805_892x/proprietary/bin/chkntfs:system/bin/chkntfs \
-  device/YG/m805_892x/proprietary/bin/flash_eraseall:system/bin/flash_eraseall \
+  device/YG/m805_892x/proprietary/bin/dhcpcd:system/bin/dhcpcd \
   device/YG/m805_892x/proprietary/bin/hostapd:system/bin/hostapd \
   device/YG/m805_892x/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
   device/YG/m805_892x/proprietary/bin/hostapd_wps:system/bin/hostapd_wps \
   device/YG/m805_892x/proprietary/bin/iwconfig:system/bin/iwconfig \
   device/YG/m805_892x/proprietary/bin/iwlist:system/bin/iwlist \
-  device/YG/m805_892x/proprietary/bin/make_ext4fs:system/bin/make_ext4fs \
-  device/YG/m805_892x/proprietary/bin/mem:system/bin/mem \
-  device/YG/m805_892x/proprietary/bin/mkntfs:system/bin/mkntfs \
-  device/YG/m805_892x/proprietary/bin/send_bug:system/bin/send_bug \
-  device/YG/m805_892x/proprietary/bin/setup_fs:system/bin/setup_fs \
   device/YG/m805_892x/proprietary/bin/wpa_cli:system/bin/wpa_cli \
   device/YG/m805_892x/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
-  device/YG/m805_892x/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
   device/YG/m805_892x/proprietary/etc/dhcpcd.conf:system/etc/dhcpcd.conf \
-  device/YG/m805_892x/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
-  device/YG/m805_892x/proprietary/etc/vold.fstab:system/etc/vold.fstab \
+  device/YG/m805_892x/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
   device/YG/m805_892x/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
+  device/YG/m805_892x/proprietary/etc/dhcpcd/dhcpcd-run-hooks:system/etc/dhcpcd/dhcpcd-run-hooks \
+  device/YG/m805_892x/proprietary/etc/dhcpcd/dhcpcd-hooks/20-dns.conf:system/etc/dhcpcd/dhcpcd-hooks/20-dns.conf \
+  device/YG/m805_892x/proprietary/etc/dhcpcd/dhcpcd-hooks/95-configured:system/etc/dhcpcd/dhcpcd-hooks/95-configured \
   device/YG/m805_892x/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
   device/YG/m805_892x/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+  device/YG/m805_892x/proprietary/etc/permissions/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
   device/YG/m805_892x/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
   device/YG/m805_892x/proprietary/etc/permissions/features.xml:system/etc/permissions/features.xml \
   device/YG/m805_892x/proprietary/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
+  device/YG/m805_892x/proprietary/etc/ppp/:system/etc/ppp/ \
   device/YG/m805_892x/proprietary/etc/ppp/chap-secrets:system/etc/ppp/chap-secrets \
   device/YG/m805_892x/proprietary/etc/ppp/gprs-connect-chat:system/etc/ppp/gprs-connect-chat \
   device/YG/m805_892x/proprietary/etc/ppp/init.gprs-pppd:system/etc/ppp/init.gprs-pppd \
   device/YG/m805_892x/proprietary/etc/ppp/ip-down:system/etc/ppp/ip-down \
   device/YG/m805_892x/proprietary/etc/ppp/ip-up:system/etc/ppp/ip-up \
+  device/YG/m805_892x/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
   device/YG/m805_892x/proprietary/etc/ril/ril.xml:system/etc/ril/ril.xml \
   device/YG/m805_892x/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
   device/YG/m805_892x/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
   device/YG/m805_892x/proprietary/fonts/DroidSansFallback_DxB.ttf:system/fonts/DroidSansFallback_DxB.ttf \
-  device/YG/m805_892x/proprietary/framework/com.android.future.usb.accessory.jar:system/framework/com.android.future.usb.accessory.jar \
   device/YG/m805_892x/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
   device/YG/m805_892x/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-  device/YG/m805_892x/proprietary/framework/send_bug.jar:system/framework/send_bug.jar \
-  device/YG/m805_892x/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
-  device/YG/m805_892x/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
   device/YG/m805_892x/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-  device/YG/m805_892x/proprietary/lib/libc.so:system/lib/libc.so \
-  device/YG/m805_892x/proprietary/lib/libdvm.so:system/lib/libdvm.so \
   device/YG/m805_892x/proprietary/lib/libextenddisplay.so:system/lib/libextenddisplay.so \
-  device/YG/m805_892x/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
   device/YG/m805_892x/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
-  device/YG/m805_892x/proprietary/lib/libhwui.so:system/lib/libhwui.so \
   device/YG/m805_892x/proprietary/lib/libjni_googlepinyinime_4.so:system/lib/libjni_googlepinyinime_4.so \
   device/YG/m805_892x/proprietary/lib/libjni_googlepinyinime_latinime_4.so:system/lib/libjni_googlepinyinime_latinime_4.so \
-  device/YG/m805_892x/proprietary/lib/libmedia.so:system/lib/libmedia.so \
-  device/YG/m805_892x/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
-  device/YG/m805_892x/proprietary/lib/libext4_utils.so:system/lib/libext4_utils.so \
-  device/YG/m805_892x/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
-  device/YG/m805_892x/proprietary/lib/libhardware.so:system/lib/libhardware.so \
   device/YG/m805_892x/proprietary/lib/libmtdutils1.so:system/lib/libmtdutils1.so \
   device/YG/m805_892x/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
   device/YG/m805_892x/proprietary/lib/libOMX.TCC.aacdec.so:system/lib/libOMX.TCC.aacdec.so \
@@ -100,8 +83,6 @@ PRODUCT_COPY_FILES += \
   device/YG/m805_892x/proprietary/lib/libOMX.TCC.VPUEnc.so:system/lib/libOMX.TCC.VPUEnc.so \
   device/YG/m805_892x/proprietary/lib/libOMX.TCC.wmadec.so:system/lib/libOMX.TCC.wmadec.so \
   device/YG/m805_892x/proprietary/lib/libpmap.so:system/lib/libpmap.so \
-  device/YG/m805_892x/proprietary/lib/libril.so:system/lib/libril.so \
-  device/YG/m805_892x/proprietary/lib/libskia.so:system/lib/libskia.so \
   device/YG/m805_892x/proprietary/lib/libTCC_ASF_DMX.so:system/lib/libTCC_ASF_DMX.so \
   device/YG/m805_892x/proprietary/lib/libTCC_CDK_CONFIG.so:system/lib/libTCC_CDK_CONFIG.so \
   device/YG/m805_892x/proprietary/lib/libTCC_Decoder.so:system/lib/libTCC_Decoder.so \
@@ -111,22 +92,20 @@ PRODUCT_COPY_FILES += \
   device/YG/m805_892x/proprietary/lib/libTCC_RM_DMX.so:system/lib/libTCC_RM_DMX.so \
   device/YG/m805_892x/proprietary/lib/libtcc-wcdma-ril.so:system/lib/libtcc-wcdma-ril.so \
   device/YG/m805_892x/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-  device/YG/m805_892x/proprietary/lib/libttspico.so:system/lib/libttspico.so \
-  device/YG/m805_892x/proprietary/lib/libutils.so:system/lib/libutils.so \
   device/YG/m805_892x/proprietary/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
   device/YG/m805_892x/proprietary/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-  device/YG/m805_892x/proprietary/lib/libvideoeditor_jni.so:system/lib/libvideoeditor_jni.so \
-  device/YG/m805_892x/proprietary/lib/libvideoeditorplayer.so:system/lib/libvideoeditorplayer.so \
   device/YG/m805_892x/proprietary/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
-  device/YG/m805_892x/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
-  device/YG/m805_892x/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-  device/YG/m805_892x/proprietary/lib/libwebcore.so:system/lib/libwebcore.so \
   device/YG/m805_892x/proprietary/lib/libwnndict.so:system/lib/libwnndict.so \
+  device/YG/m805_892x/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
   device/YG/m805_892x/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   device/YG/m805_892x/proprietary/lib/hw/audio.primary.tcc892x.so:system/lib/hw/audio.primary.tcc892x.so \
+  device/YG/m805_892x/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
   device/YG/m805_892x/proprietary/lib/hw/camera.tcc892x.so:system/lib/hw/camera.tcc892x.so \
+  device/YG/m805_892x/proprietary/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
   device/YG/m805_892x/proprietary/lib/hw/gps.tcc892x.so:system/lib/hw/gps.tcc892x.so \
+  device/YG/m805_892x/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
   device/YG/m805_892x/proprietary/lib/hw/lights.tcc892x.so:system/lib/hw/lights.tcc892x.so \
+  device/YG/m805_892x/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
   device/YG/m805_892x/proprietary/lib/hw/sensors.tcc892x.so:system/lib/hw/sensors.tcc892x.so \
   device/YG/m805_892x/proprietary/lib/modules/vpu_decoder.ko:system/lib/modules/vpu_decoder.ko \
   device/YG/m805_892x/proprietary/lib/modules/vpu_decoder_ext.ko:system/lib/modules/vpu_decoder_ext.ko \
@@ -134,9 +113,15 @@ PRODUCT_COPY_FILES += \
   device/YG/m805_892x/proprietary/lib/modules/vpu_manager.ko:system/lib/modules/vpu_manager.ko \
   device/YG/m805_892x/proprietary/usr/idc/ak4187-TouchScreen.idc:system/usr/idc/ak4187-TouchScreen.idc \
   device/YG/m805_892x/proprietary/usr/idc/Goodix-TouchScreen.idc:system/usr/idc/Goodix-TouchScreen.idc \
+  device/YG/m805_892x/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+  device/YG/m805_892x/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
   device/YG/m805_892x/proprietary/usr/idc/tcc-ts.idc:system/usr/idc/tcc-ts.idc \
   device/YG/m805_892x/proprietary/usr/idc/tcc-ts-goodix-cap.idc:system/usr/idc/tcc-ts-goodix-cap.idc \
   device/YG/m805_892x/proprietary/usr/idc/tcc-ts-sitronix.idc:system/usr/idc/tcc-ts-sitronix.idc \
+  device/YG/m805_892x/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
+  device/YG/m805_892x/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+  device/YG/m805_892x/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+  device/YG/m805_892x/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
   device/YG/m805_892x/proprietary/vendor/lib/libMali.so:system/vendor/lib/libMali.so \
   device/YG/m805_892x/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
   device/YG/m805_892x/proprietary/vendor/lib/libTCC_CDK_AUDIO.so:system/vendor/lib/libTCC_CDK_AUDIO.so \
