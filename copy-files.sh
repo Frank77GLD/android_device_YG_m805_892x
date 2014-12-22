@@ -20,7 +20,7 @@ DEVICE=m805_892x
 #MANUFACTURER=YG
 mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/bin
 mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/etc/bluetooth
-mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/etc/dhcpcd/dhcpcd-hooks/
+mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/etc/dhcpcd/dhcpcd-hooks
 mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions
 mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/etc/ppp
 mkdir -p ../../../device/$VENDOR/$DEVICE/proprietary/etc/ril
@@ -95,9 +95,17 @@ cp -a src/etc/bluetooth/auto_pairing.conf ../../../device/$VENDOR/$DEVICE/propri
 cp -a src/etc/bluetooth/blacklist.conf ../../../device/$VENDOR/$DEVICE/proprietary/etc/bluetooth/blacklist.conf
 cp -a src/etc/bluetooth/input.conf ../../../device/$VENDOR/$DEVICE/proprietary/etc/bluetooth/input.conf
 cp -a src/etc/bluetooth/network.conf ../../../device/$VENDOR/$DEVICE/proprietary/etc/bluetooth/network.conf
-cp -a src/etc/dhcpcd/dhcpcd-run-hooks ../../../device/$VENDOR/$DEVICE/proprietary/etc/dhcpcd/dhcpcd-run-hooks
-cp -a src/etc/dhcpcd/dhcpcd-hooks/20-dns.conf ../../../device/$VENDOR/$DEVICE/proprietary/etc/dhcpcd/dhcpcd-hooks/20-dns.conf
-cp -a src/etc/dhcpcd/dhcpcd-hooks/95-configured ../../../device/$VENDOR/$DEVICE/proprietary/etc/dhcpcd/dhcpcd-hooks/95-configured
+cp -a src/etc/permissions/android.hardware.camera.flash-autofocus.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.camera.flash-autofocus.xml
+cp -a src/etc/permissions/android.hardware.camera.front.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.camera.front.xml
+cp -a src/etc/permissions/android.hardware.camera.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.camera.xml
+cp -a src/etc/permissions/android.hardware.location.gps.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.location.gps.xml
+cp -a src/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml
+cp -a src/etc/permissions/android.hardware.touchscreen.multitouch.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.touchscreen.multitouch.xml
+cp -a src/etc/permissions/android.hardware.usb.host.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.usb.host.xml
+cp -a src/etc/permissions/android.hardware.wifi.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.hardware.wifi.xml
+cp -a src/etc/permissions/android.software.live_wallpaper.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.software.live_wallpaper.xml
+cp -a src/etc/permissions/android.software.sip.voip.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.software.sip.voip.xml
+cp -a src/etc/permissions/com.android.location.provider.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/com.android.location.provider.xml
 cp -a src/etc/permissions/com.google.android.maps.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/com.google.android.maps.xml
 cp -a src/etc/permissions/com.google.android.media.effects.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/com.google.android.media.effects.xml
 cp -a src/etc/permissions/android.software.sip.voip.xml ../../../device/$VENDOR/$DEVICE/proprietary/etc/permissions/android.software.sip.voip.xml
